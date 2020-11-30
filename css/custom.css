@@ -135,6 +135,14 @@ CUSTOM CSS
     position: absolute;
 }
 
+.showcase-section {
+    width: 1200px;
+    height: 800px;
+    background: url(https://aebeleinteriors.com/wp-content/uploads/2020/08/old-town-boutique-hotel-005-1920x1281.webp);
+    background-size: cover; 
+    margin: 0 auto;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -167,6 +175,10 @@ CUSTOM CSS
         transform:translate(-50%, -50%);
     }
 
+    .showcase-section {
+        width: auto;
+    }
+
 }
 @media only screen and (max-width: 975px) {
     
@@ -182,6 +194,7 @@ CUSTOM CSS
     .hero-img-5 {
         right: 50px;
         bottom: -210px;
+        width: auto;
     }
 
 }
