@@ -175,8 +175,13 @@ CUSTOM CSS
         transform:translate(-50%, -50%);
     }
 
+    .hero-img-1 {
+        width: 100vw;
+        height: 100vh;
+    }
+
     .showcase-section {
-        width: auto;
+        width: 100vw;
     }
 
 }
@@ -194,7 +199,7 @@ CUSTOM CSS
     .hero-img-5 {
         right: 50px;
         bottom: -210px;
-        width: auto;
+        display: none;
     }
 
 }
