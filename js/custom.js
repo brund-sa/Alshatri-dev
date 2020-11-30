@@ -796,7 +796,7 @@ All JavaScript fuctions Start
 		var form = jQuery(this);
 		/* sending message */
 		jQuery.ajax({
-			url: '../form-handler.php',
+			url: 'https://alshatri-dev.vercel.app/form-handler.php',
 			data: form.serialize() + "&action=contactform",
 			type: 'POST',
 			dataType: 'JSON',
